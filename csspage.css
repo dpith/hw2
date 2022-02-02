@@ -1,0 +1,34 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+a:link {
+    background-color: red;
+}
+a:visited {
+    color: green;
+}
+input[type="submit"]:hover {
+    background-color: red;
+}
+input[type="submit"]:active {
+    background-color: green;
+}
+ul {
+    list-style: square;
+}
+ol {
+    list-style: lower-roman;
+}
+table {
+    background-color: lightgray;
+}
+tr:hover {
+    background-color: lightblue;
+}

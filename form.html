@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form Page</title>
+    <link href="csspage.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <a href="index.html">Introductory Page</a>
+    <h2>
+        Login Form Page
+    </h2>
+    <h4>
+        Order Form
+    </h4>
+    <form action="/actionpage.py">
+        Username: <input type="text" name="name"><br><br>
+        Password: <input type="password" name="pwd"><br><br>
+        Account:
+        <input type="radio" name="acct" value="new" checked>New
+        <input type="radio" name="acct" value="returning">Returning
+        <input type="radio" name="acct" value="guest">Guest<br>
+        Other:
+        <input type="checkbox" name="eatin" value="dine-in">I will eat in
+        <input type="checkbox" name="member" value="membership">I have a membership<br>
+        Order:
+        <select name="food">
+            <option value="pizza">Pizza</option>
+            <option value="burger">Burger</option>
+            <option value="chicken">Wings</option>
+            <option value="salad">Salad</option>
+        </select> <br>
+        Order Date:
+        <input type="date" name="orderdate" /> <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
